@@ -36,30 +36,26 @@
 // alert("Parol to'g'ri!");
 
 // // 5. Birinchin ta tub sonning yig'indisini while siklidan foydalanib hisoblaydigan dastur tuzing.
-// let n = 10;
+// let n = 20;
 // let sum = 0;
-// let currentNumber = 2;
+// let number = 2;
 // while (n > 0) {
 //   let isPrime = true;
-//   for (let j = 2; j < currentNumber; j++) {
-//     if (currentNumber % j === 0) {
-//       isPrime = false;
-//       break;
+//   for (let j = 2; j < number; j++) {
+//     if (isPrime) {
+//       sum += number;
+//       n--;
 //     }
+//     number++;
 //   }
-//   if (isPrime) {
-//     sum += currentNumber;
-//     n--;
-//   }
-//   currentNumber++;
 // }
-// console.log(sum);
+// console.log(sum); // ?????
 
 // // 6. Berilgan sonni teskari tartibda yozuvchi algoritm yozing
-// let originalNumber = 12345;
+// let number = 107;
 // let reverseNumber = 0;
-// while (originalNumber !== 0) {
-//   reverseNumber = (reverseNumber * 10) + (originalNumber % 10);
-//   originalNumber = Math.floor(originalNumber / 10);
+// while (number !== 0) {
+//   reverseNumber = reverseNumber * 10 + (number % 10);
+//   originalNumber = Math.floor(number / 10);
 // }
 // console.log(reverseNumber);
